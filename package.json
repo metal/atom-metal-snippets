@@ -1,19 +1,20 @@
 {
-  "name": "metal-snippets",
-  "version": "1.0.0",
+  "name": "atom-metal-snippets",
+  "version": "0.0.0",
   "description": "Snippets for metal.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bryceosterhaus/metal-snippets.git"
+  "repository": "https://github.com/bryceosterhaus/atom-metal-snippets.git",
+  "keywords": [
+    "atom",
+    "metal",
+    "metal-state-validators",
+    "snippets"
+  ],
+  "engines": {
+    "atom": ">0.50.0"
   },
   "author": "Bryce Osterhaus",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bryceosterhaus/metal-snippets/issues"
-  },
-  "homepage": "https://github.com/bryceosterhaus/metal-snippets#readme"
+    "url": "https://github.com/bryceosterhaus/atom-metal-snippets/issues"
+  }
 }

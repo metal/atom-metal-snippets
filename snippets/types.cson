@@ -1,0 +1,53 @@
+'.source.js, .source.jsx, .source.ts, .source.js-semantic':
+
+  'Types.any':
+    prefix: 'tany'
+    body: 'Types.any'
+
+  'Types.array':
+    prefix: 'tarr'
+    body: 'Types.array'
+
+  'Types.arrayOf':
+    prefix: 'tarro'
+    body: 'Types.arrayOf($1)'
+
+  'Types.bool':
+    prefix: 'tboo'
+    body: 'Types.bool'
+
+  'Types.func':
+    prefix: 'tfun'
+    body: 'Types.func'
+
+  'Types.instanceOf':
+    prefix: 'tino'
+    body: 'Types.instanceOf($1)'
+
+  'Types.maybe':
+    prefix: 'tmay'
+    body: 'Types.maybe($1)'
+
+  'Types.number':
+    prefix: 'tnum'
+    body: 'Types.number'
+
+  'Types.object':
+    prefix: 'tob'
+    body: 'Types.object'
+
+  'Types.objectOf':
+    prefix: 'tobo'
+    body: 'Types.objectOf($1)'
+
+  'Types.oneOfType':
+    prefix: 'tone'
+    body: 'Types.oneOfType([$1,$2])'
+
+  'Types.shapeOf':
+    prefix: 'tsha'
+    body: 'Types.shapeOf({$1})'
+
+  'Types.string':
+    prefix: 'tst'
+    body: 'Types.string'

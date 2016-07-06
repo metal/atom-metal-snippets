@@ -1,0 +1,13 @@
+'.source.js, .source.jsx, .source.ts, .source.js-semantic':
+
+  'metal-jsx import':
+    prefix: 'ijsx'
+    body: 'import Component from \'metal-jsx\';'
+
+  'metal-state-validators import':
+    prefix: 'isoy'
+    body: 'import Component from \'metal-soy\';'
+
+  'metal-state-validators import ':
+    prefix: 'isv'
+    body: 'import Types from \'metal-state-validators\';'
