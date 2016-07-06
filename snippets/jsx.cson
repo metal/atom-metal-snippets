@@ -1,28 +1,29 @@
 '.source.js, .source.jsx, .source.ts, .source.js-semantic':
 
-  'Metal JSX Component':
-    prefix: 'mjsx'
-    body: '
-      import Component from \'metal-jsx\';
+	'Metal JSX Component':
+		prefix: 'mjsx'
+		body: """
+			import Component from \'metal-jsx\';
 
-      class ${1:MyComponent} extends Component {
-        render() {
-          return (
-            ${2:<div>MyComponent</div>}
-          );
-        }
-      }
+			class ${1:MyComponent} extends Component {
+				render() {
+					return (
+						${2:<div>MyComponent</div>}
+					);
+				}
+			}
 
-      ${1:MyComponent}.STATE = {
-      };
+			${1:MyComponent}.STATE = {
+			};
 
-      export default ${1:MyComponent}
-    '
+			export default ${1:MyComponent}
+		"""
 
-  'Transition Component':
-    prefix: 'mtran'
-    body: '
-        <Transition name="$1">
-            $2
-        </Transition>
-    '
+	'Transition Component':
+		prefix: 'mtran'
+		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
+		body: """
+				<Transition name="$1">
+						$2
+				</Transition>
+		"""

@@ -1,13 +1,20 @@
 '.source.js, .source.jsx, .source.ts, .source.js-semantic':
+	'metal-css-transitions import ':
+		prefix: 'ict'
+		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
+		body: 'import Transition from \'metal-css-transitions\';'
 
-  'metal-jsx import':
-    prefix: 'ijsx'
-    body: 'import Component from \'metal-jsx\';'
+	'metal-jsx import':
+		prefix: 'ijsx'
+		descriptionMoreURL: 'https://github.com/mairatma/metal-jsx'
+		body: 'import Component from \'metal-jsx\';'
 
-  'metal-state-validators import':
-    prefix: 'isoy'
-    body: 'import Component from \'metal-soy\';'
+	'metal-soy import':
+		prefix: 'isoy'
+		descriptionMoreURL: 'https://github.com/mairatma/metal-soy'
+		body: 'import Component from \'metal-soy\';'
 
-  'metal-state-validators import ':
-    prefix: 'isv'
-    body: 'import Types from \'metal-state-validators\';'
+	'metal-state-validators import ':
+		prefix: 'isv'
+		descriptionMoreURL: 'https://github.com/mairatma/metal-state-validators'
+		body: 'import Types from \'metal-state-validators\';'
