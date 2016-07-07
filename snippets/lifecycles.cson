@@ -2,7 +2,7 @@
 
 	'created()':
 			prefix: 'mcre'
-			decription: 'Metal component `created` lifecycle method'
+			description: 'Metal component `created` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: """
 				created() {
@@ -12,7 +12,7 @@
 
 	'rendered()':
 			prefix: 'mren'
-			decription: 'Metal component `rendered` lifecycle method'
+			description: 'Metal component `rendered` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: """
 				rendered() {
@@ -22,7 +22,7 @@
 
 	'attached()':
 			prefix: 'matt'
-			decription: 'Metal component `attached` lifecycle method'
+			description: 'Metal component `attached` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: """
 				attached() {
@@ -32,7 +32,7 @@
 
 	'detached()':
 			prefix: 'mdet'
-			decription: 'Metal component `detached` lifecycle method'
+			description: 'Metal component `detached` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: '
 				detached() {
@@ -42,7 +42,7 @@
 
 	'disposed()':
 			prefix: 'mdis'
-			decription: 'Metal component `disposed` lifecycle method'
+			description: 'Metal component `disposed` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: """
 				disposed() {
@@ -52,7 +52,7 @@
 
 	'shouldUpdate()':
 			prefix: 'mshup'
-			decription: 'Metal component `shouldUpdate` lifecycle method'
+			description: 'Metal component `shouldUpdate` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: """
 				shouldUpdate(changes) {
@@ -62,7 +62,7 @@
 
 	'sync[attr]()':
 			prefix: 'msync'
-			decription: 'Metal component `sync[attr]` lifecycle method'
+			description: 'Metal component `sync[attr]` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: """
 				sync$1(newVal, prevVal) {
