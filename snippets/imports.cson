@@ -9,6 +9,11 @@
 		descriptionMoreURL: 'https://github.com/mairatma/metal-jsx'
 		body: 'import Component from \'metal-jsx\';'
 
+	'metal-redux import':
+		prefix: 'imr'
+		descriptionMoreURL: 'https://github.com/metal/metal-redux'
+		body: 'import {$1} from \'metal-redux\';'
+
 	'metal-soy import':
 		prefix: 'isoy'
 		descriptionMoreURL: 'https://github.com/mairatma/metal-soy'

@@ -16,7 +16,7 @@
 			${1:MyComponent}.STATE = {
 			};
 
-			export default ${1:MyComponent}
+			export default ${1:MyComponent};
 		"""
 
 	'Transition Component':

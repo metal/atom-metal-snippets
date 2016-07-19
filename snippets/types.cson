@@ -64,13 +64,25 @@
 		prefix: 'tone'
 		description: 'Validates one of multiple types'
 		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.oneOfType([$1,$2])'
+		body: """
+			Types.oneOfType(
+				[
+					$1,
+				]
+			)
+		"""
 
 	'Types.shapeOf':
 		prefix: 'tsha'
 		description: 'Validates the shape of an object'
 		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.shapeOf({$1})'
+		body: """
+			Types.shapeOf(
+				{
+					$1
+				}
+			)
+		"""
 
 	'Types.string':
 		prefix: 'tst'
