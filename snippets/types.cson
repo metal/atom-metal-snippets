@@ -1,91 +1,73 @@
 '.source.js, .source.jsx, .source.ts, .source.js-semantic':
 
-	'Types.any':
-		prefix: 'tany'
+	'Config.any':
+		prefix: 'conan'
 		description: 'Validates any type'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.any'
+		body: 'Config.any()'
 
-	'Types.array':
-		prefix: 'tarr'
+	'Config.array':
+		prefix: 'conarr'
 		description: 'Validates an array type'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.array'
+		body: 'Config.array()'
 
-	'Types.arrayOf':
-		prefix: 'tarro'
+	'Config.arrayOf':
+		prefix: 'conarro'
 		description: 'Validates an arrayOf type'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.arrayOf($1)'
+		body: 'Config.arrayOf($1)'
 
-	'Types.bool':
-		prefix: 'tboo'
+	'Config.bool':
+		prefix: 'conboo'
 		description: 'Validates a boolean type'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.bool'
+		body: 'Config.bool()'
 
-	'Types.func':
-		prefix: 'tfun'
+	'Config.func':
+		prefix: 'confun'
 		description: 'Validates a function type'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.func'
+		body: 'Config.func()'
 
-	'Types.instanceOf':
-		prefix: 'tino'
+	'Config.instanceOf':
+		prefix: 'conino'
 		description: 'Validates an instance of a constructor'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.instanceOf($1)'
+		body: 'Config.instanceOf($1)'
 
-	'Types.maybe':
-		prefix: 'tmay'
-		description: 'Validates either a single type or null'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.maybe($1)'
-
-	'Types.number':
-		prefix: 'tnum'
+	'Config.number':
+		prefix: 'connum'
 		description: 'Validates a number type'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.number'
+		body: 'Config.number()'
 
-	'Types.object':
-		prefix: 'tob'
+	'Config.object':
+		prefix: 'conob'
 		description: 'Validates an object type'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.object'
+		body: 'Config.object()'
 
-	'Types.objectOf':
-		prefix: 'tobo'
+	'Config.objectOf':
+		prefix: 'conobo'
 		description: 'Validates an object of a specific type'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.objectOf($1)'
+		body: 'Config.objectOf($1)'
 
-	'Types.oneOfType':
-		prefix: 'tone'
+	'Config.oneOfType':
+		prefix: 'conoot'
 		description: 'Validates one of multiple types'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
 		body: """
-			Types.oneOfType(
+			Config.oneOfType(
 				[
 					$1,
 				]
 			)
 		"""
 
-	'Types.shapeOf':
-		prefix: 'tsha'
+	'Config.shapeOf':
+		prefix: 'consha'
 		description: 'Validates the shape of an object'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
 		body: """
-			Types.shapeOf(
+			Config.shapeOf(
 				{
 					$1
 				}
 			)
 		"""
 
-	'Types.string':
-		prefix: 'tst'
+	'Config.string':
+		prefix: 'constr'
 		description: 'Validates a string type'
-		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
-		body: 'Types.string'
+		body: 'Config.string()'

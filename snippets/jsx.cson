@@ -3,7 +3,7 @@
 	'Metal JSX Component':
 		prefix: 'mjsx'
 		body: """
-			import Component from \'metal-jsx\';
+			import Component, {Config} from \'metal-jsx\';
 
 			class ${1:MyComponent} extends Component {
 				render() {
@@ -13,7 +13,7 @@
 				}
 			}
 
-			${1:MyComponent}.STATE = {
+			${1:MyComponent}.PROPS = {
 			};
 
 			export default ${1:MyComponent};
