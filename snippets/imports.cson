@@ -1,4 +1,5 @@
 '.source.js, .source.jsx, .source.ts, .source.js-semantic':
+
 	'metal-css-transitions import ':
 		prefix: 'ict'
 		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
@@ -18,8 +19,3 @@
 		prefix: 'isoy'
 		descriptionMoreURL: 'https://github.com/mairatma/metal-soy'
 		body: 'import Component from \'metal-soy\';'
-
-	'metal-state-validators import ':
-		prefix: 'isv'
-		descriptionMoreURL: 'https://github.com/mairatma/metal-state-validators'
-		body: 'import Types from \'metal-state-validators\';'

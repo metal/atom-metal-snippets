@@ -1,6 +1,23 @@
 '.source.js, .source.jsx, .source.ts, .source.js-semantic':
+
 	'setState()':
 		prefix: 'sst'
 		description: 'Metal component method that updates state'
 		descriptionMoreURL: 'http://metaljs.com/docs/state.html'
 		body: 'this.setState({$1});'
+
+	'this.PROPS':
+		prefix: 'PRO'
+		body: """
+			$1.PROPS = {
+				$2
+			};
+		"""
+
+	'this.STATE':
+		prefix: 'STA'
+		body: """
+			$1.STATE = {
+				$2
+			};
+		"""

@@ -1,7 +1,13 @@
 '.source.js, .source.jsx, .source.ts, .source.js-semantic':
 
+	'Bind Function':
+		prefix: 'bind'
+		body: """
+			this.${1} = this.${1}.bind(this);
+		"""
+
 	'Metal JSX Component':
-		prefix: 'mjsx'
+		prefix: 'jsx'
 		body: """
 			import Component, {Config} from \'metal-jsx\';
 
@@ -16,11 +22,14 @@
 			${1:MyComponent}.PROPS = {
 			};
 
+			${1:MyComponent}.STATE = {
+			};
+
 			export default ${1:MyComponent};
 		"""
 
 	'Transition Component':
-		prefix: 'mtran'
+		prefix: 'trans'
 		descriptionMoreURL: 'https://github.com/bryceosterhaus/metal-css-transitions'
 		body: """
 				<Transition name="$1">

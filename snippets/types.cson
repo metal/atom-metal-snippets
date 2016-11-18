@@ -71,3 +71,8 @@
 		prefix: 'constr'
 		description: 'Validates a string type'
 		body: 'Config.string()'
+
+	'Config.value':
+		prefix: 'conval'
+		description: 'Gives a default value'
+		body: 'Config.value($1)'

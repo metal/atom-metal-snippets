@@ -1,71 +1,83 @@
 '.source.js, .source.jsx, .source.ts, .source.js-semantic':
 
-	'created()':
-			prefix: 'mcre'
-			description: 'Metal component `created` lifecycle method'
-			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
-			body: """
-				created() {
-						${1}
-				}
-			"""
-
-	'rendered()':
-			prefix: 'mren'
-			description: 'Metal component `rendered` lifecycle method'
-			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
-			body: """
-				rendered() {
-						${1}
-				}
-			"""
-
 	'attached()':
-			prefix: 'matt'
+			prefix: 'att'
 			description: 'Metal component `attached` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: """
 				attached() {
-						${1}
+					${1}
+				}
+			"""
+
+	'created()':
+			prefix: 'cre'
+			description: 'Metal component `created` lifecycle method'
+			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
+			body: """
+				created() {
+					${1}
 				}
 			"""
 
 	'detached()':
-			prefix: 'mdet'
+			prefix: 'det'
 			description: 'Metal component `detached` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: '
 				detached() {
-						${1}
+					${1}
 				}
 			'
 
 	'disposed()':
-			prefix: 'mdis'
+			prefix: 'dis'
 			description: 'Metal component `disposed` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: """
 				disposed() {
-						${1}
+					${1}
+				}
+			"""
+
+	'render()':
+			prefix: 'ren'
+			description: 'Metal component `render` lifecycle method'
+			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
+			body: """
+				render(newVal, prevVal) {
+					return (
+						${2}
+					);
+				}
+			"""
+
+	'rendered()':
+			prefix: 'rend'
+			description: 'Metal component `rendered` lifecycle method'
+			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
+			body: """
+				rendered() {
+					${1}
 				}
 			"""
 
 	'shouldUpdate()':
-			prefix: 'mshup'
+			prefix: 'shup'
 			description: 'Metal component `shouldUpdate` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: """
-				shouldUpdate(changes) {
-						${1}
+				shouldUpdate(newState, newProps) {
+					${1}
 				}
 			"""
 
 	'sync[attr]()':
-			prefix: 'msync'
+			prefix: 'sync'
 			description: 'Metal component `sync[attr]` lifecycle method'
 			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
 			body: """
 				sync$1(newVal, prevVal) {
-						${2}
+					${2}
 				}
 			"""
