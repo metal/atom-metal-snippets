@@ -1,0 +1,20 @@
+'.source.js, .source.jsx, .source.ts, .source.js-semantic':
+
+	'Metal Soy Component':
+		prefix: 'soy'
+		body: """
+			import Component, {Config} from \'metal-soy\';
+
+			import templates from './${1:MyComponent}.soy';
+
+			class ${1:MyComponent} extends Component {
+				${2:}
+			}
+
+			${1:MyComponent}.STATE = {
+			};
+
+			Soy.register(${1:MyComponent}, templates);
+
+			export default ${1:MyComponent};
+		"""

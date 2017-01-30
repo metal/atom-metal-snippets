@@ -29,6 +29,27 @@ import ${1} from 'metal-redux';
 import Component from 'metal-soy';
 ```
 
+Soy
+---
+
+#### [soy]
+```js
+import Component, {Config} from 'metal-soy';
+
+import templates from './${1:MyComponent}.soy';
+
+class ${1:MyComponent} extends Component {
+	${2:}
+}
+
+${1:MyComponent}.STATE = {
+};
+
+Soy.register(${1:MyComponent}, templates);
+
+export default ${1:MyComponent};
+```
+
 JSX
 ---
 
