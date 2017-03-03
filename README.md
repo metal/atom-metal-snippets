@@ -1,6 +1,6 @@
 # Atom Metal.js Snippets
 
-An [Atom](https://atom.io/) snippet library for [Metal.js](https://github.com/metal/metal), and [metal-css-transitions](https://github.com/bryceosterhaus/metal-css-transitions). This library uses ES6 syntax.
+An [Atom](https://atom.io/) snippet library for [Metal.js](https://github.com/metal/metal), and [metal-css-transitions](https://github.com/metal/metal-css-transitions). This library uses ES6 syntax.
 
 Install via `apm install atom-metal-snippets`
 

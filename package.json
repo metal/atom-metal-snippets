@@ -2,7 +2,7 @@
   "name": "atom-metal-snippets",
   "version": "2.1.0",
   "description": "Snippets for metal.js",
-  "repository": "https://github.com/bryceosterhaus/atom-metal-snippets.git",
+  "repository": "https://github.com/metal/atom-metal-snippets.git",
   "keywords": [
     "atom",
     "metal",
@@ -12,9 +12,9 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "author": "Bryce Osterhaus",
+  "author": "Bryce Osterhaus <bryceosterhaus@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bryceosterhaus/atom-metal-snippets/issues"
+    "url": "https://github.com/metal/atom-metal-snippets/issues"
   }
 }
