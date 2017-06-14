@@ -1,4 +1,6 @@
 # Atom Metal.js Snippets
+[![apm](https://img.shields.io/apm/v/atom-metal-snippets.svg?style=flat-square)](https://atom.io/packages/atom-metal-snippets)
+[![apm](https://img.shields.io/apm/dm/atom-metal-snippets.svg?style=flat-square)](https://atom.io/packages/atom-metal-snippets)
 
 An [Atom](https://atom.io/) snippet library for [Metal.js](https://github.com/metal/metal), and [metal-css-transitions](https://github.com/metal/metal-css-transitions). This library uses ES6 syntax.
 
