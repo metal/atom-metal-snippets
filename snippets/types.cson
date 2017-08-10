@@ -45,14 +45,21 @@
 		description: 'Validates an object of a specific type'
 		body: 'Config.objectOf($1)'
 
+	'Config.oneOf':
+		prefix: 'conoo'
+		description: 'Validates one of multiple values'
+		body: """
+			Config.oneOf(
+				[$1, ]
+			)
+		"""
+
 	'Config.oneOfType':
 		prefix: 'conoot'
 		description: 'Validates one of multiple types'
 		body: """
 			Config.oneOfType(
-				[
-					$1,
-				]
+				[$1, ]
 			)
 		"""
 
