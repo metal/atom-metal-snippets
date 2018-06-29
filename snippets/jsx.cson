@@ -11,21 +11,17 @@
 		body: """
 			import Component, {Config} from \'metal-jsx\';
 
-			class ${1:MyComponent} extends Component {
+			export default class ${1:MyComponent} extends Component {
+				static PROPS = {};
+
+				static STATE = {};
+
 				render() {
 					return (
-						${2:<div>MyComponent</div>}
+						${2:<div>${1:MyComponent}</div>}
 					);
 				}
 			}
-
-			${1:MyComponent}.PROPS = {
-			};
-
-			${1:MyComponent}.STATE = {
-			};
-
-			export default ${1:MyComponent};
 		"""
 
 	'Transition Component':
