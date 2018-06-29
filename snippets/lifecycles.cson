@@ -20,6 +20,66 @@
 				}
 			"""
 
+	'prepareStateForRender(states)':
+			prefix: 'willa'
+			description: 'Metal component `prepareStateForRender` lifecycle method'
+			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
+			body: """
+				prepareStateForRender(changes) {
+					${1}
+				}
+			"""
+
+	'willAttach()':
+			prefix: 'willa'
+			description: 'Metal component `willAttach` lifecycle method'
+			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
+			body: """
+				willAttach() {
+					${1}
+				}
+			"""
+
+	'willReceiveState()':
+			prefix: 'willa'
+			description: 'Metal component `willReceiveState` lifecycle method'
+			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
+			body: """
+				willReceiveState(changes) {
+					${1}
+				}
+			"""
+
+	'willReceiveProps()':
+			prefix: 'willa'
+			description: 'Metal component `willReceiveProps` lifecycle method'
+			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
+			body: """
+				willReceiveProps(changes) {
+					${1}
+				}
+			"""
+
+	'willUpdate()':
+			prefix: 'willa'
+			description: 'Metal component `willUpdate` lifecycle method'
+			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
+			body: """
+				willUpdate(newState, newProps) {
+					${1}
+				}
+			"""
+
+	'willDetach()':
+			prefix: 'willa'
+			description: 'Metal component `willDetach` lifecycle method'
+			descriptionMoreURL: 'http://metaljs.com/docs/component-lifecycle.html'
+			body: """
+				willDetach() {
+					${1}
+				}
+			"""
+
 	'detached()':
 			prefix: 'det'
 			description: 'Metal component `detached` lifecycle method'
