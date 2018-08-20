@@ -181,7 +181,7 @@ Config.any()
 
 #### [conarr]
 ```js
-Config.conarr()
+Config.array()
 ```
 
 #### [conarro]
